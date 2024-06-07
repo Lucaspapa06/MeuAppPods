@@ -1,0 +1,90 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MeuAppPods.Pages.LoginPage"
+             Title="LoginPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <VerticalStackLayout Margin="0"
+                         Padding="0"
+                         Spacing="5">
+
+        <Grid BackgroundColor="#8B55FF"
+              HeightRequest="88"
+              WidthRequest="430">
+            
+            <Label Text="LOGIN"
+                   TextColor="Black"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Title"
+                   FontFamily="FasterOne"/>
+
+            <Image Source="logopods.svg" Margin="310, 0, 0, 0"/>
+        </Grid>
+
+        <Label Text="LOGIN"
+               TextColor="Black"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               FontFamily="BrunoAce"
+               FontSize="Title"
+               Margin="20"/>
+
+        <Label x:Name="lblEmail"
+               Text="E-mail"
+               TextColor="Black"
+               FontFamily="BrunoAce"
+               FontSize="Subtitle"
+               Margin="50, 0, 50, 0"/>
+
+        <Entry x:Name="txtEmail"
+               Placeholder="Digite seu Email"
+               FontFamily="BrunoAce"
+               Keyboard="Email"
+               Margin="50, 0, 50, 20"/>
+
+        <Label x:Name="lblSenha"
+               FontSize="Subtitle"
+               Text="Senha"
+               TextColor="Black"
+               FontFamily="BrunoAce"
+               Margin="50, 0, 50, 0"/>
+
+        <Entry Placeholder="Digite sua Senha"
+               x:Name="txtSenha"
+               IsPassword="True"
+               ClearButtonVisibility="WhileEditing"
+               FontFamily="BrunoAce"
+               Margin="50, 0, 50, 20"/>
+
+        <Button Text="Entrar"
+                TextColor="White"
+                FontFamily="BrunoAce"
+                WidthRequest="150"
+                x:Name="btnEntrar"
+                Clicked="btnEntrar_Clicked"
+                BackgroundColor="#1E53DA"
+                Margin="20, 0, 0, 0"/>
+
+        <Button Text="Esqueceu a senha?"
+                TextColor="Black"
+                FontFamily="BrunoAce"
+                WidthRequest="200"
+                x:Name="btnEsquecSEnha"
+                Clicked="btnEsquecSEnha_Clicked"
+                BackgroundColor="Transparent"/>
+
+        <Label Text="Não possui cadastro?"
+               HorizontalOptions="Center"
+               FontFamily="BrunoAce"/>
+
+        <Button Text="Cadastre-se"
+                TextColor="Blue"
+                FontFamily="BrunoAce"
+                WidthRequest="200"
+                x:Name="btnRegistrar"
+                Clicked="btnRegistrar_Clicked"
+                BackgroundColor="Transparent"/>
+
+    </VerticalStackLayout>
+</ContentPage>

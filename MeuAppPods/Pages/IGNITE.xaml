@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MeuAppPods.Pages.IGNITE"
+             Title="IGNITE"
+             NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+        <VerticalStackLayout>
+            <FlexLayout BackgroundColor="#8B55FF"
+                        Direction="Row"
+                        JustifyContent="SpaceAround"
+                        Margin="0, 0, 0, 30">
+                <ImageButton Source="home.svg" Clicked="ImageButton_Clicked" WidthRequest="30" HeightRequest="30" Margin="20, 18, 0, 0"/>
+                <ImageButton Source="carrinho.svg" Clicked="ImageButton_Clicked_1" WidthRequest="30" HeightRequest="30" Margin="20, 18, 0, 0"/>
+                <ImageButton Source="perfil.svg" Clicked="ImageButton_Clicked_2" WidthRequest="30" HeightRequest="30" Margin="20, 18, 50, 0"/>
+
+                <Image Source="logopods.svg" HorizontalOptions="Start" HeightRequest="88" Margin="0, 0, 0, 0"/>
+            </FlexLayout>
+
+            <Label Text="Lista de tipos e sabores IGNITE:"
+                   TextColor="Black"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   FontFamily="BrunoAce"
+                   FontSize="Title"
+                   WidthRequest="240"
+                   Margin="0, 0, 0, 50"/>
+
+            <Label Text="IGNITE 8.000 PUFFS - R$110,00:"
+                   TextColor="Black"
+                   FontFamily="BrunoAce"
+                   FontSize="Subtitle"
+                   HorizontalOptions="Start"
+                   WidthRequest="190"
+                   Margin="50, 0, 0, 15"/>
+
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* BANANA ICE"
+                       FontFamily="BrunoAce"
+                       FontSize="15"
+                       Margin="18, 0, 82, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             WidthRequest="18"
+                             HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* GRAPE ICE"
+                       FontFamily="BrunoAce"
+                       FontSize="15"
+                       Margin="18, 0, 91, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             WidthRequest="18"
+                             HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* BLUEBERRY ICE"
+                       FontFamily="BrunoAce"
+                       FontSize="15"
+                       Margin="18, 0, 65, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             WidthRequest="18"
+                             HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* GREEN APPLE"
+                       FontFamily="BrunoAce"
+                       FontSize="15"
+                       Margin="18, 0, 73, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             WidthRequest="18"
+                             HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout>
+                <Label Text="* ICY MINT"
+                       FontFamily="BrunoAce"
+                       FontSize="15"
+                       Margin="18, 0, 100, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             WidthRequest="18"
+                             HeightRequest="18"/>
+            </FlexLayout>
+
+            <Label Text="IGNITE 5.000 PUFFS - R$80,00:"
+                   TextColor="Black"
+                   FontFamily="BrunoAce"
+                   FontSize="Subtitle"
+                   HorizontalOptions="Start"
+                   WidthRequest="190"
+                   Margin="50, 40, 0, 15"/>
+
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* ALOE GRAPE"
+                       FontFamily="BrunoAce"
+                       FontSize="15"
+                       Margin="18, 0, 85, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             WidthRequest="18"
+                             HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* MENTHOL"
+                       FontFamily="BrunoAce"
+                       FontSize="15"
+                       Margin="18, 0, 101, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             WidthRequest="18"
+                             HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* WATERMELON BUBBLEGUM"
+                       FontFamily="BrunoAce"
+                       FontSize="15"
+                       Margin="18, 0, 15, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             WidthRequest="18"
+                             HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* BLUE COTTON CANDY"
+                       FontFamily="BrunoAce"
+                       FontSize="15"
+                       Margin="18, 0, 42, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             WidthRequest="18"
+                             HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout>
+                <Label Text="* STRAWBERRY MANGO"
+                       FontFamily="BrunoAce"
+                       FontSize="15"
+                       Margin="18, 0, 40, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             WidthRequest="18"
+                             HeightRequest="18"/>
+            </FlexLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

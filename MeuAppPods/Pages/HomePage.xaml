@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MeuAppPods.Pages.HomePage"
+             NavigationPage.HasNavigationBar="False">
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <FlexLayout BackgroundColor="#8B55FF"
+                        Direction="Row"
+                        JustifyContent="SpaceAround"
+                        Margin="0, 0, 0, 30">
+                <ImageButton Source="home.svg" Clicked="ImageButton_Clicked" WidthRequest="30" HeightRequest="30" Margin="20, 18, 0, 0"/>
+                <ImageButton Source="carrinho.svg" Clicked="ImageButton_Clicked_1" WidthRequest="30" HeightRequest="30" Margin="20, 18, 0, 0"/>
+                <ImageButton Source="perfil.svg" Clicked="ImageButton_Clicked_2" WidthRequest="30" HeightRequest="30" Margin="20, 18, 50, 0"/>
+
+                <Image Source="logopods.svg" HorizontalOptions="Start" HeightRequest="88" Margin="0, 0, 0, 0"/>
+            </FlexLayout>
+
+            <Label Text="Seja bem vindo ao site oficial do Empório dos Pods!"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="150"
+                   HorizontalTextAlignment="Center"
+                   Margin="0, 0, 0, 30"/>
+        
+            <Border StrokeThickness="4"
+                    StrokeShape="RoundRectangle 100"
+                    Background="#CBCBCB"
+                    HorizontalOptions="Center"
+                    Margin="0, 0, 0, 30">
+                <Grid>
+                    <Label Text="O que deseja encontrar?" Margin="10, 5, 0, 0"/>
+                    <Image Source="procurar.svg" Margin="250, 0, 10, 0"/>
+                </Grid>
+            </Border>
+
+            <Image FlexLayout.AlignSelf="Auto" Source="imagehome.svg" Margin="0, 0, 0, 50"/>
+
+            <Frame BackgroundColor="#CBCBCB"
+                   WidthRequest="233"
+                   CornerRadius="37"
+                   HasShadow="False"
+                   Padding="1"
+                   Margin="0, 0, 0, 30">
+                <StackLayout>
+                    <Image Source="oxbar.svg" WidthRequest="230"/>
+                    <Label Text="OXBAR" HorizontalOptions="Center" Margin="0, 10, 0, 10" FontSize="Title"/>
+                    <Label Text="R$110,00 - R$140,00" HorizontalOptions="Center" FontSize="Large"/>
+                    <Button Text="Comprar" WidthRequest="125" Margin="0, 10, 0, 10" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </Frame>
+            
+            <Frame BackgroundColor="#CBCBCB"
+                   WidthRequest="233"
+                   CornerRadius="37"
+                   HasShadow="False"
+                   Padding="1"
+                   Margin="0, 0, 0, 30">
+                <StackLayout>
+                    <Image Source="ignite.svg" WidthRequest="230"/>
+                    <Label Text="IGNITE" HorizontalOptions="Center" Margin="0, 10, 0, 10" FontSize="Title"/>
+                    <Label Text="R$80,00 - R$110,00" HorizontalOptions="Center" FontSize="Large"/>
+                    <Button Text="Comprar" WidthRequest="125" Margin="0, 10, 0, 10" Clicked="Button_Clicked_1"/>
+                </StackLayout>
+            </Frame>
+            
+            <Frame BackgroundColor="#CBCBCB"
+                   WidthRequest="233"
+                   CornerRadius="37"
+                   HasShadow="False"
+                   Padding="1"
+                   Margin="0, 0, 0, 30">
+                <StackLayout>
+                    <Image Source="elfbar.svg" WidthRequest="230"/>
+                    <Label Text="ELFBAR" HorizontalOptions="Center" Margin="0, 10, 0, 10" FontSize="Title"/>
+                    <Label Text="R$60,00 - R$130,00" HorizontalOptions="Center" FontSize="Large"/>
+                    <Button Text="Comprar" WidthRequest="125" Margin="0, 10, 0, 10" Clicked="Button_Clicked_2"/>
+                </StackLayout>
+            </Frame>
+            
+            <Frame BackgroundColor="#CBCBCB"
+                   WidthRequest="233"
+                   CornerRadius="37"
+                   HasShadow="False"
+                   Padding="1"
+                   Margin="0, 0, 0, 30">
+                <StackLayout>
+                    <Image Source="lostmary.svg" WidthRequest="230"/>
+                    <Label Text="LOST MARY" HorizontalOptions="Center" Margin="0, 10, 0, 10" FontSize="Title"/>
+                    <Label Text="R$70,00 - R$120,00" HorizontalOptions="Center" FontSize="Large"/>
+                    <Button Text="Comprar" WidthRequest="125" Margin="0, 10, 0, 10" Clicked="Button_Clicked_3"/>
+                </StackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MeuAppPods.Pages.PerfilPage"
+             Title="PerfilPage"
+             NavigationPage.HasNavigationBar="False">
+    <VerticalStackLayout>
+        <FlexLayout BackgroundColor="#8B55FF"
+            Direction="Row"
+            JustifyContent="SpaceAround"
+            Margin="0, 0, 0, 30">
+            <ImageButton Source="home.svg" Clicked="ImageButton_Clicked" WidthRequest="30" HeightRequest="30" Margin="20, 18, 0, 0"/>
+            <ImageButton Source="carrinho.svg" Clicked="ImageButton_Clicked_1" WidthRequest="30" HeightRequest="30" Margin="20, 18, 0, 0"/>
+            <ImageButton Source="perfil.svg" Clicked="ImageButton_Clicked_2" WidthRequest="30" HeightRequest="30" Margin="20, 18, 50, 0"/>
+
+            <Image Source="logopods.svg" HorizontalOptions="Start" HeightRequest="88" Margin="0, 0, 0, 0"/>
+        </FlexLayout>
+        <Label Text="PERFIL"
+               TextColor="Black"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               FontFamily="BrunoAce"
+               FontSize="Title"
+               Margin="0, 15, 0, 20"/>
+        <FlexLayout>
+            <Image Source="perfilcircular.svg" Margin="10, 0, 10, 0"/>
+            <FlexLayout>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="NOME:"/>
+                            <Span x:Name="txtNome"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </FlexLayout>
+            <FlexLayout VerticalOptions="Center">
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="E-MAIL:"/>
+                            <Span x:Name="txtEmail"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </FlexLayout>
+        </FlexLayout>
+        <Button BackgroundColor="Transparent" 
+                Text="SAIR" 
+                TextColor="Black" 
+                FontSize="Title" 
+                WidthRequest="150" 
+                HeightRequest="50"
+                Margin="0, 450, 0, 0"
+                Clicked="Button_Clicked"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>

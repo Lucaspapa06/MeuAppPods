@@ -1,0 +1,98 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MeuAppPods.Pages.EditaUsuarioPage"
+             Title="EditaUsuarioPage"
+             NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+        <VerticalStackLayout Margin="0"
+                             Padding="0"
+                             Spacing="5">
+
+            <Grid BackgroundColor="#8B55FF"
+                  HeightRequest="88"
+                  WidthRequest="430">
+
+                <Label Text="CADASTRO"
+                       TextColor="Black"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"
+                       FontSize="Title"
+                       FontFamily="FasterOne"/>
+
+                <Image Source="logopods.svg" Margin="310, 0, 0, 0"/>
+            </Grid>
+
+            <Label Text="CADASTRE-SE"
+                   TextColor="Black"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   FontSize="Title"
+                   Margin="20"/>
+
+            <Label x:Name="lblNome"
+                   Text="Nome"
+                   TextColor="Black"
+                   FontSize="Subtitle"
+                   Margin="50, 0, 50, 0"/>
+
+            <Entry x:Name="nomeEntry" Placeholder="Nome" Text="{Binding Nome}" Margin="50, 0, 50, 0"/>
+
+            <Label x:Name="lblSobrenome"
+                   Text="Sobrenome"
+                   TextColor="Black"
+                   FontSize="Subtitle"
+                   Margin="50, 0, 50, 0"/>
+
+            <Entry x:Name="sobrenomeEntry" Placeholder="Sobrenome" Text="{Binding Sobrenome}" Margin="50, 0, 50, 0"/>
+
+            <Label x:Name="lblEmail"
+                   Text="E-mail"
+                   TextColor="Black"
+                   FontSize="Subtitle"
+                   Margin="50, 0, 50, 0"/>
+
+            <Entry x:Name="emailEntry" Placeholder="Email" Keyboard="Email" Text="{Binding Email}" Margin="50, 0, 50, 0"/>
+
+            <Label x:Name="lblCPF"
+                   Text="CPF"
+                   TextColor="Black"
+                   FontSize="Subtitle" 
+                   Margin="50, 0, 50, 0"/>
+
+            <Entry x:Name="cpfEntry" Placeholder="CPF" Keyboard="Numeric" Text="{Binding CPF}" Margin="50, 0, 50, 0"/>
+
+            <Label x:Name="lblDataNasc"
+                   Text="Data de nascimento"
+                   TextColor="Black"
+                   FontSize="Subtitle"
+                   Margin="50, 0, 50, 0"/>
+
+            <DatePicker x:Name="dataNascimentoDatePicker" Margin="50, 0, 50, 0"/>
+
+            <Label x:Name="lblSenha"
+                   FontSize="Subtitle"
+                   Text="Senha"
+                   TextColor="Black"
+                   Margin="50, 0, 50, 0"/>
+
+            <Entry x:Name="senhaEntry" Placeholder="Senha" IsPassword="true" Text="{Binding Senha}" Margin="50, 0, 50, 0"/>
+
+            <Label x:Name="lblConfirmSenha"
+                   FontSize="Subtitle"
+                   Text="Confirmar senha"
+                   TextColor="Black"
+                   Margin="50, 0, 50, 0"/>
+
+            <Entry x:Name="confirmarSenhaEntry" Placeholder="Confirmar Senha" IsPassword="true" Text="{Binding ConfirmSenha}" Margin="50, 0, 50, 0"/>
+
+            <Button Text="Salvar"
+                    TextColor="White"
+                    WidthRequest="150"
+                    x:Name="btnCadastrar"
+                    Clicked="btnCadastrar_Clicked"
+                    BackgroundColor="#1E53DA"
+                    Margin="20"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

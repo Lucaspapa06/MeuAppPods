@@ -1,0 +1,61 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MeuAppPods.Pages.EsqueceuSenhaPage"
+             Title="EsqueceuSenhaPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <VerticalStackLayout Margin="15"
+                         Padding="15"
+                         Spacing="5">
+
+        <Label Text="Esqueceu a senha"
+               TextColor="Black"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               FontFamily="BrunoAce"
+               FontSize="Title"
+               Margin="20"/>
+
+        <Label x:Name="lblEmail"
+               Text="E-mail"
+               TextColor="Black"
+               FontFamily="BrunoAce"
+               FontSize="Subtitle"/>
+
+        <Entry x:Name="txtEmail"
+               Placeholder="Digite seu Email"
+               FontFamily="BrunoAce"
+               Keyboard="Email"/>
+
+        <Label x:Name="lblSenha"
+               FontSize="Subtitle"
+               Text="Senha"
+               TextColor="Black"
+               FontFamily="BrunoAce"/>
+
+        <Entry Placeholder="Digite sua Senha"
+               x:Name="txtSenha"
+               IsPassword="True"
+               ClearButtonVisibility="WhileEditing"
+               FontFamily="BrunoAce"/>
+
+        <Button Text="Salvar"
+                TextColor="White"
+                FontFamily="BrunoAce"
+                WidthRequest="250"
+                x:Name="btnSalvar"
+                Clicked="btnSalvar_Clicked"
+                BackgroundColor="#1E53DA"
+                Margin="20"/>
+
+        <Button Text="Voltar"
+        TextColor="White"
+        FontFamily="BrunoAce"
+        WidthRequest="250"
+        x:Name="btnVoltar"
+        Clicked="btnVoltar_Clicked"
+        BackgroundColor="Gray"
+        Margin="20"/>
+        
+    </VerticalStackLayout>
+</ContentPage>
