@@ -36,15 +36,16 @@
 
             <FlexLayout Margin="0, 0, 0, 10">
                 <Label Text="* APPLE ICE"
-                   FontFamily="BrunoAce"
-                   x:Name="lblApple"
-                   FontSize="15"
-                   Margin="18, 0, 100, 0"/>
+                       FontFamily="BrunoAce"
+                       FontSize="15"
+                       Margin="18, 0, 100, 0"/>
                 <ImageButton Source="adicionar.svg"
-                         WidthRequest="18"
-                         Clicked="ImageButton_Clicked_3"
-                         HeightRequest="18"/>
+                 WidthRequest="18"
+                 HeightRequest="18"
+                 Clicked="ImageButton_Clicked_3"
+                 CommandParameter="APPLE ICE"/>
             </FlexLayout>
+
             <FlexLayout Margin="0, 0, 0, 10">
                 <Label Text="* BLUEBERRY MINT"
                    FontFamily="BrunoAce"

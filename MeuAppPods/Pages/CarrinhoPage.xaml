@@ -17,11 +17,20 @@
         </FlexLayout>
 
         <Label Text="CARRINHO"
-       TextColor="Black"
-       VerticalOptions="Center"
-       HorizontalOptions="Center"
-       FontFamily="BrunoAce"
-       FontSize="Title"
-       Margin="20"/>
+               TextColor="Black"
+               FontFamily="BrunoAce"
+               FontSize="Title"
+               Margin="20"/>
+
+        <CollectionView ItemsSource="{Binding Itens}" VerticalOptions="FillAndExpand">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Label Text="{Binding Nome}" FontSize="Medium"/>
+                        <Label Text="{Binding Quantidade}" FontSize="Medium"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
     </VerticalStackLayout>
 </ContentPage>

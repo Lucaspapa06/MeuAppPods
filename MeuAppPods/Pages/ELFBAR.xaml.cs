@@ -5,6 +5,7 @@ namespace MeuAppPods.Pages;
 public partial class ELFBAR : ContentPage
 {
     private Usuario _usuario;
+    private Carrinho _carrinho = new Carrinho();
     public ELFBAR(Usuario usuario)
     {
         _usuario = usuario;
@@ -26,8 +27,16 @@ public partial class ELFBAR : ContentPage
         await Navigation.PushAsync(new PerfilPage(_usuario));
     }
 
-    private void ImageButton_Clicked_3(object sender, EventArgs e)
-    {
+   
 
+    private async void ImageButton_Clicked_3(object sender, EventArgs e)
+    {
+        var nomeItem = (string)((ImageButton)sender).CommandParameter;
+
+        var item = new Itens { Nome = nomeItem, Quantidade = 1 }; // Inicializa a quantidade como 1
+
+        _carrinho.AddItem(item);
+
+        // Talvez você queira exibir uma mensagem de confirmação ou atualizar a interface do usuário de alguma forma aqui
     }
 }
