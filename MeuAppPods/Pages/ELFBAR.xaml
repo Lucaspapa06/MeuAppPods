@@ -11,8 +11,7 @@
                     JustifyContent="SpaceAround"
                     Margin="0, 0, 0, 30">
                 <ImageButton Source="home.svg" Clicked="ImageButton_Clicked" WidthRequest="30" HeightRequest="30" Margin="20, 18, 0, 0"/>
-                <ImageButton Source="carrinho.svg" Clicked="ImageButton_Clicked_1" WidthRequest="30" HeightRequest="30" Margin="20, 18, 0, 0"/>
-                <ImageButton Source="perfil.svg" Clicked="ImageButton_Clicked_2" WidthRequest="30" HeightRequest="30" Margin="20, 18, 50, 0"/>
+                <ImageButton Source="perfil.svg" Clicked="ImageButton_Clicked_2" WidthRequest="30" HeightRequest="30" Margin="20, 18, 83, 0"/>
 
                 <Image Source="logopods.svg" HorizontalOptions="Start" HeightRequest="88" Margin="0, 0, 0, 0"/>
             </FlexLayout>
@@ -40,10 +39,9 @@
                        FontSize="15"
                        Margin="18, 0, 100, 0"/>
                 <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
                  WidthRequest="18"
-                 HeightRequest="18"
-                 Clicked="ImageButton_Clicked_3"
-                 CommandParameter="APPLE ICE"/>
+                 HeightRequest="18"/>
             </FlexLayout>
 
             <FlexLayout Margin="0, 0, 0, 10">
@@ -52,6 +50,7 @@
                    FontSize="15"
                    Margin="18, 0, 65, 0"/>
                 <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
                          WidthRequest="18"
                          HeightRequest="18"/>
             </FlexLayout>
@@ -61,6 +60,7 @@
                    FontSize="15"
                    Margin="18, 0, 19, 0"/>
                 <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
                          WidthRequest="18"
                          HeightRequest="18"/>
             </FlexLayout>
@@ -70,6 +70,7 @@
                    FontSize="15"
                    Margin="18, 0, 74, 0"/>
                 <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
                          WidthRequest="18"
                          HeightRequest="18"/>
             </FlexLayout>
@@ -79,6 +80,7 @@
                    FontSize="15"
                    Margin="18, 0, 78, 0"/>
                 <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
                          WidthRequest="18"
                          HeightRequest="18"/>
             </FlexLayout>
@@ -97,6 +99,7 @@
                    FontSize="15"
                    Margin="18, 0, 78, 0"/>
                 <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
                          WidthRequest="18"
                          HeightRequest="18"/>
             </FlexLayout>
@@ -106,6 +109,7 @@
                    FontSize="15"
                    Margin="18, 0, 84, 0"/>
                 <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
                          WidthRequest="18"
                          HeightRequest="18"/>
             </FlexLayout>
@@ -115,6 +119,7 @@
                    FontSize="15"
                    Margin="18, 0, 70, 0"/>
                 <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
                          WidthRequest="18"
                          HeightRequest="18"/>
             </FlexLayout>
@@ -124,6 +129,7 @@
                    FontSize="15"
                    Margin="18, 0, 54, 0"/>
                 <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
                          WidthRequest="18"
                          HeightRequest="18"/>
             </FlexLayout>
@@ -133,6 +139,7 @@
                    FontSize="15"
                    Margin="18, 0, 48, 0"/>
                 <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
                          WidthRequest="18"
                          HeightRequest="18"/>
             </FlexLayout>

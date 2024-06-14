@@ -27,65 +27,74 @@
                    VerticalOptions="Center"
                    HorizontalOptions="Center"
                    FontSize="Title"
+                   FontFamily="BrunoAce"
                    Margin="20"/>
 
             <Label x:Name="lblNome"
                    Text="Nome"
                    TextColor="Black"
+                   FontFamily="BrunoAce"
                    FontSize="Subtitle"
                    Margin="50, 0, 50, 0"/>
 
-            <Entry x:Name="nomeEntry" Placeholder="Nome" Text="{Binding Nome}" Margin="50, 0, 50, 0"/>
+            <Entry x:Name="nomeEntry" FontFamily="BrunoAce" Placeholder="Nome" Text="{Binding Nome}" Margin="50, 0, 50, 0"/>
 
             <Label x:Name="lblSobrenome"
                    Text="Sobrenome"
                    TextColor="Black"
+                   FontFamily="BrunoAce"
                    FontSize="Subtitle"
                    Margin="50, 0, 50, 0"/>
 
-            <Entry x:Name="sobrenomeEntry" Placeholder="Sobrenome" Text="{Binding Sobrenome}" Margin="50, 0, 50, 0"/>
+            <Entry x:Name="sobrenomeEntry" FontFamily="BrunoAce" Placeholder="Sobrenome" Text="{Binding Sobrenome}" Margin="50, 0, 50, 0"/>
 
             <Label x:Name="lblEmail"
                    Text="E-mail"
                    TextColor="Black"
+                   FontFamily="BrunoAce"
                    FontSize="Subtitle"
                    Margin="50, 0, 50, 0"/>
 
-            <Entry x:Name="emailEntry" Placeholder="Email" Keyboard="Email" Text="{Binding Email}" Margin="50, 0, 50, 0"/>
+            <Entry x:Name="emailEntry" FontFamily="BrunoAce" Placeholder="Email" Keyboard="Email" Text="{Binding Email}" Margin="50, 0, 50, 0"/>
 
             <Label x:Name="lblCPF"
                    Text="CPF"
                    TextColor="Black"
+                   FontFamily="BrunoAce"
                    FontSize="Subtitle" 
                    Margin="50, 0, 50, 0"/>
 
-            <Entry x:Name="cpfEntry" Placeholder="CPF" Keyboard="Numeric" Text="{Binding CPF}" Margin="50, 0, 50, 0"/>
+            <Entry x:Name="cpfEntry" FontFamily="BrunoAce" Placeholder="CPF" Keyboard="Numeric" Text="{Binding CPF}" Margin="50, 0, 50, 0"/>
 
             <Label x:Name="lblDataNasc"
                    Text="Data de nascimento"
                    TextColor="Black"
+                   FontFamily="BrunoAce"
                    FontSize="Subtitle"
                    Margin="50, 0, 50, 0"/>
 
-            <DatePicker x:Name="dataNascimentoDatePicker" Margin="50, 0, 50, 0"/>
+            <DatePicker x:Name="dataNascimentoDatePicker" FontFamily="BrunoAce" Margin="50, 0, 50, 0"/>
 
             <Label x:Name="lblSenha"
                    FontSize="Subtitle"
                    Text="Senha"
+                   FontFamily="BrunoAce"
                    TextColor="Black"
                    Margin="50, 0, 50, 0"/>
 
-            <Entry x:Name="senhaEntry" Placeholder="Senha" IsPassword="true" Text="{Binding Senha}" Margin="50, 0, 50, 0"/>
+            <Entry x:Name="senhaEntry" FontFamily="BrunoAce" Placeholder="Senha" IsPassword="true" Text="{Binding Senha}" Margin="50, 0, 50, 0"/>
 
             <Label x:Name="lblConfirmSenha"
                    FontSize="Subtitle"
                    Text="Confirmar senha"
+                   FontFamily="BrunoAce"
                    TextColor="Black"
                    Margin="50, 0, 50, 0"/>
 
-            <Entry x:Name="confirmarSenhaEntry" Placeholder="Confirmar Senha" IsPassword="true" Text="{Binding ConfirmSenha}" Margin="50, 0, 50, 0"/>
+            <Entry x:Name="confirmarSenhaEntry" FontFamily="BrunoAce" Placeholder="Confirmar Senha" IsPassword="true" Text="{Binding ConfirmSenha}" Margin="50, 0, 50, 0"/>
 
             <Button Text="Salvar"
+                    FontFamily="BrunoAce"
                     TextColor="White"
                     WidthRequest="150"
                     x:Name="btnCadastrar"

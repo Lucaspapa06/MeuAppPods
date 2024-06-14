@@ -71,9 +71,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Pages\CarrinhoPage.xaml.cs">
-	    <DependentUpon>CarrinhoPage.xaml</DependentUpon>
-	  </Compile>
 	  <Compile Update="Pages\IGNITE.xaml.cs">
 	    <DependentUpon>IGNITE.xaml</DependentUpon>
 	  </Compile>
@@ -93,9 +90,6 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\LoginPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\CarrinhoPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\IGNITE.xaml">

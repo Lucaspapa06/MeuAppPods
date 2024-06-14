@@ -11,8 +11,7 @@
                         JustifyContent="SpaceAround"
                         Margin="0, 0, 0, 30">
                 <ImageButton Source="home.svg" Clicked="ImageButton_Clicked" WidthRequest="30" HeightRequest="30" Margin="20, 18, 0, 0"/>
-                <ImageButton Source="carrinho.svg" Clicked="ImageButton_Clicked_1" WidthRequest="30" HeightRequest="30" Margin="20, 18, 0, 0"/>
-                <ImageButton Source="perfil.svg" Clicked="ImageButton_Clicked_2" WidthRequest="30" HeightRequest="30" Margin="20, 18, 50, 0"/>
+                <ImageButton Source="perfil.svg" Clicked="ImageButton_Clicked_2" WidthRequest="30" HeightRequest="30" Margin="20, 18, 83, 0"/>
 
                 <Image Source="logopods.svg" HorizontalOptions="Start" HeightRequest="88" Margin="0, 0, 0, 0"/>
             </FlexLayout>
@@ -34,38 +33,115 @@
                    WidthRequest="190"
                    Margin="50, 0, 0, 15"/>
 
-            <Label x:Name="lblItem"
-                   Text="Item"
-                   TextColor="Black"
-                   FontSize="Subtitle"
-                   Margin="50, 0, 50, 0"/>
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* BLUE RAZZ"
+           FontFamily="BrunoAce"
+           FontSize="15"
+           Margin="18, 0, 95, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
+                 WidthRequest="18"
+                 HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* SAKURA GRAPE"
+           FontFamily="BrunoAce"
+           FontSize="15"
+           Margin="18, 0, 73, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
+                 WidthRequest="18"
+                 HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* STRAWBERRY WATERMELON"
+           FontFamily="BrunoAce"
+           FontSize="15"
+           Margin="18, 0, 10, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
+                 WidthRequest="18"
+                 HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* CLEAR JEWEL"
+           FontFamily="BrunoAce"
+           FontSize="15"
+           Margin="18, 0, 83, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
+                 WidthRequest="18"
+                 HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout>
+                <Label Text="* RAZZ PINEAPPLE"
+           FontFamily="BrunoAce"
+           FontSize="15"
+           Margin="18, 0, 65, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
+                 WidthRequest="18"
+                 HeightRequest="18"/>
+            </FlexLayout>
 
-            <Entry x:Name="itemEntry" Placeholder="Item" Text="{Binding Item}" Margin="50, 0, 50, 0"/>
+            <Label Text="OXBAR 8.000 PUFFS - R$110,00:"
+       TextColor="Black"
+       FontFamily="BrunoAce"
+       FontSize="Subtitle"
+       HorizontalOptions="Start"
+       WidthRequest="190"
+       Margin="50, 40, 0, 15"/>
 
-            <Label x:Name="lblQuant"
-                Text="Quantidade"
-                TextColor="Black"
-                FontSize="Subtitle"
-                Margin="50, 0, 50, 0"/>
-
-            <Entry x:Name="quantEntry" Placeholder="Quantidade" Text="{Binding Quantidade}" Margin="50, 0, 50, 0"/>
-
-            <Button Text="Adicionar"
-                    TextColor="White"
-                    WidthRequest="150"
-                    x:Name="btnAdicionar"
-                    Clicked="btnAdicionar_Clicked"
-                    BackgroundColor="#1E53DA"
-                    Margin="20"/>
-            
-            <ListView ItemsSource="{Binding Itens}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <TextCell Text="{Binding Item}" />
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* DOUBLE APPLE"
+           FontFamily="BrunoAce"
+           FontSize="15"
+           Margin="18, 0, 75, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
+                 WidthRequest="18"
+                 HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* SAKURA GRAPE"
+           FontFamily="BrunoAce"
+           FontSize="15"
+           Margin="18, 0, 73, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
+                 WidthRequest="18"
+                 HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* MANGO PEACH"
+           FontFamily="BrunoAce"
+           FontSize="15"
+           Margin="18, 0, 79, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
+                 WidthRequest="18"
+                 HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout Margin="0, 0, 0, 10">
+                <Label Text="* LEMON MINT"
+           FontFamily="BrunoAce"
+           FontSize="15"
+           Margin="18, 0, 91, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             Clicked="ImageButton_Clicked_3"
+                 WidthRequest="18"
+                 HeightRequest="18"/>
+            </FlexLayout>
+            <FlexLayout>
+                <Label Text="* FANTA STRAWBERRY"
+                       FontFamily="BrunoAce"
+                       FontSize="15"
+                       Margin="18, 0, 46, 0"/>
+                <ImageButton Source="adicionar.svg"
+                             WidthRequest="18"
+                             HeightRequest="18"
+                             Clicked="ImageButton_Clicked_3"/>
+            </FlexLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

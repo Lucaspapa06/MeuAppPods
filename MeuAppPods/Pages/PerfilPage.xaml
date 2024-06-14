@@ -10,9 +10,7 @@
             JustifyContent="SpaceAround"
             Margin="0, 0, 0, 30">
             <ImageButton Source="home.svg" Clicked="ImageButton_Clicked" WidthRequest="30" HeightRequest="30" Margin="20, 18, 0, 0"/>
-            <ImageButton Source="carrinho.svg" Clicked="ImageButton_Clicked_1" WidthRequest="30" HeightRequest="30" Margin="20, 18, 0, 0"/>
-            <ImageButton Source="perfil.svg" Clicked="ImageButton_Clicked_2" WidthRequest="30" HeightRequest="30" Margin="20, 18, 50, 0"/>
-
+            <ImageButton Source="perfil.svg" Clicked="ImageButton_Clicked_2" WidthRequest="30" HeightRequest="30" Margin="20, 18, 83, 0"/>
             <Image Source="logopods.svg" HorizontalOptions="Start" HeightRequest="88" Margin="0, 0, 0, 0"/>
         </FlexLayout>
         <Label Text="PERFIL"
@@ -28,8 +26,8 @@
                 <Label>
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="NOME:"/>
-                            <Span x:Name="txtNome"/>
+                            <Span Text="NOME:" FontFamily="BrunoAce"/>
+                            <Span x:Name="txtNome" FontFamily="BrunoAce"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
@@ -38,8 +36,8 @@
                 <Label>
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="E-MAIL:"/>
-                            <Span x:Name="txtEmail"/>
+                            <Span Text="E-MAIL:" FontFamily="BrunoAce"/>
+                            <Span x:Name="txtEmail" FontFamily="BrunoAce"/>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
@@ -49,6 +47,7 @@
                 Text="SAIR" 
                 TextColor="Black" 
                 FontSize="Title" 
+                FontFamily="BrunoAce"
                 WidthRequest="150" 
                 HeightRequest="50"
                 Margin="0, 450, 0, 0"

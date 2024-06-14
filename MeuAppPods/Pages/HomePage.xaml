@@ -12,13 +12,13 @@
                         JustifyContent="SpaceAround"
                         Margin="0, 0, 0, 30">
                 <ImageButton Source="home.svg" Clicked="ImageButton_Clicked" WidthRequest="30" HeightRequest="30" Margin="20, 18, 0, 0"/>
-                <ImageButton Source="carrinho.svg" Clicked="ImageButton_Clicked_1" WidthRequest="30" HeightRequest="30" Margin="20, 18, 0, 0"/>
-                <ImageButton Source="perfil.svg" Clicked="ImageButton_Clicked_2" WidthRequest="30" HeightRequest="30" Margin="20, 18, 50, 0"/>
+                <ImageButton Source="perfil.svg" Clicked="ImageButton_Clicked_2" WidthRequest="30" HeightRequest="30" Margin="20, 18, 83, 0"/>
 
                 <Image Source="logopods.svg" HorizontalOptions="Start" HeightRequest="88" Margin="0, 0, 0, 0"/>
             </FlexLayout>
 
             <Label Text="Seja bem vindo ao site oficial do Empório dos Pods!"
+                   FontFamily="BrunoAce"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
                    WidthRequest="150"
@@ -31,7 +31,7 @@
                     HorizontalOptions="Center"
                     Margin="0, 0, 0, 30">
                 <Grid>
-                    <Label Text="O que deseja encontrar?" Margin="10, 5, 0, 0"/>
+                    <Label Text="O que deseja encontrar?" FontFamily="BrunoAce" Margin="10, 5, 0, 0"/>
                     <Image Source="procurar.svg" Margin="250, 0, 10, 0"/>
                 </Grid>
             </Border>
@@ -46,9 +46,9 @@
                    Margin="0, 0, 0, 30">
                 <StackLayout>
                     <Image Source="oxbar.svg" WidthRequest="230"/>
-                    <Label Text="OXBAR" HorizontalOptions="Center" Margin="0, 10, 0, 10" FontSize="Title"/>
-                    <Label Text="R$110,00 - R$140,00" HorizontalOptions="Center" FontSize="Large"/>
-                    <Button Text="Comprar" WidthRequest="125" Margin="0, 10, 0, 10" Clicked="Button_Clicked"/>
+                    <Label Text="OXBAR" FontFamily="BrunoAce" HorizontalOptions="Center" Margin="0, 10, 0, 10" FontSize="Title"/>
+                    <Label Text="R$110,00 - R$140,00" FontFamily="BrunoAce" HorizontalOptions="Center" FontSize="18"/>
+                    <Button Text="Comprar" FontFamily="BrunoAce" WidthRequest="125" Margin="0, 10, 0, 10" Clicked="Button_Clicked"/>
                 </StackLayout>
             </Frame>
             
@@ -60,9 +60,9 @@
                    Margin="0, 0, 0, 30">
                 <StackLayout>
                     <Image Source="ignite.svg" WidthRequest="230"/>
-                    <Label Text="IGNITE" HorizontalOptions="Center" Margin="0, 10, 0, 10" FontSize="Title"/>
-                    <Label Text="R$80,00 - R$110,00" HorizontalOptions="Center" FontSize="Large"/>
-                    <Button Text="Comprar" WidthRequest="125" Margin="0, 10, 0, 10" Clicked="Button_Clicked_1"/>
+                    <Label Text="IGNITE" FontFamily="BrunoAce" HorizontalOptions="Center" Margin="0, 10, 0, 10" FontSize="Title"/>
+                    <Label Text="R$80,00 - R$110,00" FontFamily="BrunoAce" HorizontalOptions="Center" FontSize="18"/>
+                    <Button Text="Comprar" FontFamily="BrunoAce" WidthRequest="125" Margin="0, 10, 0, 10" Clicked="Button_Clicked_1"/>
                 </StackLayout>
             </Frame>
             
@@ -74,9 +74,9 @@
                    Margin="0, 0, 0, 30">
                 <StackLayout>
                     <Image Source="elfbar.svg" WidthRequest="230"/>
-                    <Label Text="ELFBAR" HorizontalOptions="Center" Margin="0, 10, 0, 10" FontSize="Title"/>
-                    <Label Text="R$60,00 - R$130,00" HorizontalOptions="Center" FontSize="Large"/>
-                    <Button Text="Comprar" WidthRequest="125" Margin="0, 10, 0, 10" Clicked="Button_Clicked_2"/>
+                    <Label Text="ELFBAR" FontFamily="BrunoAce" HorizontalOptions="Center" Margin="0, 10, 0, 10" FontSize="Title"/>
+                    <Label Text="R$60,00 - R$130,00" FontFamily="BrunoAce" HorizontalOptions="Center" FontSize="18"/>
+                    <Button Text="Comprar" FontFamily="BrunoAce" WidthRequest="125" Margin="0, 10, 0, 10" Clicked="Button_Clicked_2"/>
                 </StackLayout>
             </Frame>
             
@@ -88,9 +88,9 @@
                    Margin="0, 0, 0, 30">
                 <StackLayout>
                     <Image Source="lostmary.svg" WidthRequest="230"/>
-                    <Label Text="LOST MARY" HorizontalOptions="Center" Margin="0, 10, 0, 10" FontSize="Title"/>
-                    <Label Text="R$70,00 - R$120,00" HorizontalOptions="Center" FontSize="Large"/>
-                    <Button Text="Comprar" WidthRequest="125" Margin="0, 10, 0, 10" Clicked="Button_Clicked_3"/>
+                    <Label Text="LOST MARY" FontFamily="BrunoAce" HorizontalOptions="Center" Margin="0, 10, 0, 10" FontSize="Title"/>
+                    <Label Text="R$70,00 - R$120,00" FontFamily="BrunoAce" HorizontalOptions="Center" FontSize="18"/>
+                    <Button Text="Comprar" FontFamily="BrunoAce" WidthRequest="125" Margin="0, 10, 0, 10" Clicked="Button_Clicked_3"/>
                 </StackLayout>
             </Frame>
         </VerticalStackLayout>
